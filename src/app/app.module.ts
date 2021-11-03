@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -20,6 +21,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
   declarations: [
     AppComponent,
     NopagefoundComponent,
+
 
   ],
   bootstrap: [AppComponent]
