@@ -25,13 +25,14 @@ import { FormsModule } from '@angular/forms';
     SharedModule,
     RouterModule,
     ComponentsModule,
-    ChartsModule
+    
   ],
   exports: [
     ProgressComponent,
     Grafica1Component,
     DashboardComponent,
-    PagesComponent
+    PagesComponent,
+
   ]
 })
 export class PagesModule{ }
